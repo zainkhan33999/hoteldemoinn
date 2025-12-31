@@ -9,7 +9,7 @@ const Navbar = () => {
     const [navState, setNavState] = useState(false)
     
     const handleNavClick = (sectionId) => {
-        setNavState(false); // Close mobile menu on click
+        setNavState(false); // Close mobile menu on click and 
         const element = document.getElementById(sectionId);
         if (element) {
             element.scrollIntoView({ behavior: 'smooth' });
