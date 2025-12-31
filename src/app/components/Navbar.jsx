@@ -47,7 +47,7 @@ const Navbar = () => {
             </div>
 
             {/* Mobile Nav ok  */}
-            <div className='md:hidde'>
+            <div className='md:hidden'>
                 <section className='flex justify-between h-[8vh] items-center cursor-pointer mr-2 ml-2 transition-all duration-300 ease-in-out'>
                     <div>
                         <h1 className='font-primary text-primary font-bold uppercase'>Hotel Demoinn</h1>
